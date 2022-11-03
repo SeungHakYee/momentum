@@ -33,7 +33,7 @@ $(document).ready(function () {
   // 랜덤 사진 꾸미기
   function renderRandomImage() {
     let imageList = [];
-    // 이미지 개수를 변경하려면 i=5의 값을 이미지 개수만큼 바꿔주세요!
+    // 이미지 개수를 변경하려면 이미지 개수만큼 i값 조건 작성
     for (i = 0; i < 5; i++) {
       imageList.push(i);
     }
